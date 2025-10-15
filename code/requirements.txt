@@ -1,0 +1,21 @@
+# For MCP examples
+mcp[cli]
+fastmcp
+pydantic
+
+# For REST examples
+fastapi
+uvicorn
+requests
+httpx  # For fc_client.py HTTP requests
+
+# For Gemini API function calling
+google-genai>=1.41.0  # Latest SDK - fixes Pydantic serializer warnings
+python-dotenv
+googletrans==4.0.0rc1  # Async translation library
+faster-whisper
+sounddevice
+soundfile
+grpcio==1.60.1  # Fix for WARNING: All log messages before absl::InitializeLog()
+
+ruff
